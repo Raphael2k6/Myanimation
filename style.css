@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(175, 173, 173);
+    margin: 30px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #contentContainer {
+    color:cornsilk;
+    background-image: url("img/26856403.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+    border: 5px black solid;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  #circle {   
+    width: 550px;
+    height: 350px;
+    padding-top:50px;
+  }
+
+  img {
+      border-radius: 25px;
+  }
